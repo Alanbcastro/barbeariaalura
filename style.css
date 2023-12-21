@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+:root {
+    --cor-primaria-bg: #164863;
+    --cor-secundaria-textos: #ffffff;
+    --font-family: Roboto, sans-serif;
+    --cor-secundaria: #427D9D;
+    --cor-terciaria: #9BBEC8;
+    --cor-quartenaria: #DDF2FD;
+    
+}
+
+body {
+    background: var(--cor-primaria-bg);
+    
+  
+}
+
+header {
+    text-align: center;
+    background: var(--cor-secundaria);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 0.5%;
+    background: url(/assets/bg.png);
+    border: 4px solid var(--cor-secundaria-textos);
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 1.5rem;
+    border-bottom: 2px solid var(--cor-quartenaria);
+    
+           
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--cor-secundaria-textos);
+    font-size: 1.6rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+    
+
+}
+
+.menu__nav__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        
+}
+
+nav a:hover {
+    color: var(--cor-terciaria);
+}
+
+nav a:active {
+    color: var(--cor-primaria-bg);
+}
+
+.titulo-principal {
+    color: var(--cor-secundaria-textos);
+    font-family: var(--font-family);
+    font-weight: 700;
+    padding-left: 1.5rem;
+   
+}
+
+.banner {
+    display: block; /* Necessário para o margin funcionar */
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 1rem;
+    width: 50%;
+    height: 30%;
+    border: 4px solid var(--cor-quartenaria);
+    border-radius: 8px;
+    
+    
+}
+
+.titulo-centralizado {
+    text-align: center;
+    color: var(--cor-secundaria-textos);
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+.paragrafos {
+    background: var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--cor-secundaria-textos);
+    
+}
+
+em strong {
+    color: var(--cor-terciaria);
+}
+
+.primeiro__paragrafo {
+    font-weight: 100;       
+}
+
+.segundo__paragrafo {
+     font-size: 1.25rem;
+}
+
+.terceiro__paragrafo {
+    font-weight: 100;
+    
+}
+
+.titulo-beneficios {
+    color: var(--cor-secundaria-textos);
+    font-family: var(--font-family);
+    text-align: center;
+    
+    
+}
+
+.link__produtos {
+    font-family: var(--cor-secundaria-textos);
+    color: var(--cor-secundaria-textos);
+    font-weight: 700;
+    
+}
+
+.itens {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-family: var(--font-family);
+    font-style: italic;
+    color: var(--cor-secundaria-textos);
+    list-style: none;
+    padding: 2rem;
+    
+}
+
+.beneficios__container {
+    background: var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.beneficios-imagem {
+    width: 20%;
+    height: 40%;
+    /*display: block; /* Necessário para o margin funcionar */
+    margin-left: auto; 
+    margin-right: auto;
+    border: 4px solid var(--cor-quartenaria);
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    color: var(--cor-secundaria-textos);
+    font-family: var(--font-family);
+    font-weight: 700;
+    background: url(/assets/bg.png); 
+    margin-top: 2rem;
+    border: 4px solid var(--cor-quartenaria);
+    
+    
+}
+
+footer p {
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.copyright {
+    font-size: 1rem;
+}
+
+
